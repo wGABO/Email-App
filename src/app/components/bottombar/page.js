@@ -1,4 +1,13 @@
-import { FiEdit3, FiFileText, FiInbox, FiMenu, FiX } from "react-icons/fi";
+import {
+  FiAlertOctagon,
+  FiArchive,
+  FiEdit3,
+  FiFileText,
+  FiInbox,
+  FiMenu,
+  FiTrash2,
+  FiX,
+} from "react-icons/fi";
 import Button from "./button";
 import React, { useState } from "react";
 
@@ -34,6 +43,24 @@ export default function Bottombar() {
           </>
         )}
       </Button>
+      <div
+        className={`${isMenuOpen ? "absolute" : "hidden"}
+      right-0 bottom-12 flex flex-col gap-2 w-40
+      `}
+      >
+        <Button>
+          <FiArchive className="inline mr-2 mb-1" />
+          Arquivados
+        </Button>
+        <Button>
+          <FiAlertOctagon className="inline mr-2 mb-1" />
+          Spam
+        </Button>
+        <Button>
+          <FiTrash2 className="inline mr-2 mb-1" />
+          Lixeira
+        </Button>
+      </div>
     </div>
   );
 }
