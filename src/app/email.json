@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "from": "bob@exemple.com",
+    "subject": "hello World",
+    "body": "This is a test email message. Please ignore",
+    "createdAt": "2020-06-15T09:45:00.000Z"
+  },
+  {
+    "id": 2,
+    "from": "Sona@exemple.com",
+    "subject": "Music for your",
+    "body": "See the offer for this month",
+    "createdAt": "2020-06-12T19:44:00.000Z"
+  },
+  {
+    "id": 3,
+    "from": "Aks@exemple.com",
+    "subject": "Your Key for Agon",
+    "body": "Play now",
+    "createdAt": "2020-06-11T20:13:00.000Z"
+  },
+  {
+    "id": 4,
+    "from": "alm@exemple.com",
+    "subject": "The conference is comming",
+    "body": "Join the conference",
+    "createdAt": "2020-06-05T14:23:00.000Z"
+  },
+  {
+    "id": 5,
+    "from": "phont@exemple.com",
+    "subject": "Projeto Aprovado",
+    "body": "Parabéns nós aprovamos o seu projeto, entraremos em contato em breve",
+    "createdAt": "2020-06-05T14:23:00.000Z"
+  },
+  {
+    "id": 6,
+    "from": "jill@exemple.com",
+    "subject": "Confirmação de compra",
+    "body": "Aqui está sua compra no nosso site, fique de olho que logo eu volto para te avisar que seu produto saiu para entrega!",
+    "createdAt": "2020-06-04T13:13:00.000Z"
+  },
+  {
+    "id": 7,
+    "from": "Pals@exemple.com",
+    "subject": "Junte-se a nós",
+    "body": "Venha fazer parte do nosso projeto, estamos contando com você!",
+    "createdAt": "2020-06-05T14:21:00.000Z"
+  },
+  {
+    "id": 4,
+    "from": "jill@exemple.com",
+    "subject": "Produto separado!",
+    "body": "Seu produto já foi separado!",
+    "createdAt": "2020-06-04T13:07:00.000Z"
+  },
+  {
+    "id": 4,
+    "from": "jill@exemple.com",
+    "subject": "Pedido em analise",
+    "body": "Seu pedido está em analise, fique de olho!",
+    "createdAt": "2020-06-05T14:23:00.000Z"
+  }
+]
