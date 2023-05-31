@@ -17,7 +17,7 @@ const inlineIcon = "inline mr-1 mb-1";
 
 export default function Sidebar() {
   return (
-    <aside className=" hidden md:flex flex-col items-start gap-2 grow-0 shrink basis-48">
+    <aside className=" hidden md:flex flex-col items-start gap-2 grow-0 shrink basis-48 pt-4">
       <WriteButton>
         <FiEdit3 className={inlineIcon} />
         Escrever

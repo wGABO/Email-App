@@ -18,7 +18,9 @@ export default function Home() {
           <Sidebar />
 
           <EmailList setOpenEmail={setOpenEmail} />
-          {openEmail && <EmailContent email={openEmail} />}
+          {openEmail && (
+            <EmailContent email={openEmail} setOpenEmail={setOpenEmail} />
+          )}
           <Bottombar />
         </div>
       </Container>
